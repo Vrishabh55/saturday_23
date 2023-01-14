@@ -23,6 +23,7 @@ public class NeoStoxSignLogin
 		Utility1.wait(driver, 1000);
 		mobileNumField.sendKeys(mobNum);
 		Reporter.log("sending mobile number..", true);
+		System.out.println("14 jan 2023");
 	}
 	public void clickOnSignInButton(WebDriver driver)
 	{
